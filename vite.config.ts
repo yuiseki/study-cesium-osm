@@ -5,5 +5,5 @@ import cesium from "vite-plugin-cesium";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), cesium()],
-  base: "study-cesium-osm",
+  base: "/study-cesium-osm",
 });

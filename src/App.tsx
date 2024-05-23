@@ -1,5 +1,6 @@
 import { OpenStreetMapImageryProvider, Ion } from "cesium";
 import { ImageryLayer, Viewer } from "resium";
+import "cesium/Build/Cesium/Widgets/widgets.css";
 
 Ion.defaultAccessToken = "fuck";
 
