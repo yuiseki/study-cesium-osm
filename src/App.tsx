@@ -23,6 +23,7 @@ function App() {
         geocoder={false}
         scene3DOnly={true}
         baseLayerPicker={false}
+        fullscreenButton={false}
       >
         <ImageryLayer imageryProvider={osmProvider} />
       </Viewer>
